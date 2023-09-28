@@ -121,11 +121,13 @@ ul{
 }
 
 .trailer h1{
-    font-size: 2em;
+    font-size: 3.5em;
     margin-bottom: 1em;
 }
 .trailer_paragrafo{
-    font-size: 1.1em;
+    font-size: 2em;
+    font-style:italic;
+    text-decoration: underline;
 }
 
 .trailer_botao{
@@ -194,13 +196,14 @@ ul{
 .main_content{
     background-color: #EAC674;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 0em;
     padding-bottom: 1em;
 }
 
 .main_content div{
+    font-size: large;
     margin: auto;
-    padding: 1em;
+    padding: 0.5em;
     width: 80%;
 }
 
