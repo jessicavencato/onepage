@@ -121,11 +121,11 @@ ul{
 }
 
 .trailer h1{
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 1em;
 }
 .trailer_paragrafo{
-    font-size: 2em;
+    font-size: 1em;
     font-style:italic;
     text-decoration: underline;
 }
@@ -297,3 +297,11 @@ footer{
     }
 
 }
+/* Estilos para telas pequenas, como smartphones */
+@media screen and (max-width: 768px) {
+    .trailer_video .tamanho {
+      width: 100%; /* Faça o vídeo ocupar 100% da largura do contêiner pai */
+      height: auto; /* A altura se ajustará automaticamente proporcionalmente à largura */
+    }
+  }
+  
